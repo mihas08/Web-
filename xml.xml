@@ -1,0 +1,92 @@
+﻿<?xml version='1.0'?>
+<?xml-stylesheet type="text/xml_doc"?>
+<?xml-stylesheet type="text/css" href="menu.css"?>
+<!DOCTYPE note [
+    <!ELEMENT note (to,from,heading,body)>
+    <!ELEMENT to (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+    <!ELEMENT heading (#PCDATA)>
+    <!ELEMENT body (#PCDATA)>
+]>
+<breakfast_menu>
+    <food>
+        <number> 1. </number>
+        <name>Waffles</name>
+        <price>5.95</price>
+        <description>Two of our famous Waffles with plenty of real maple syrup.
+        </description>
+        <calories>650</calories>
+    </food>
+    <food>
+      <number> 2. </number>
+        <name>Strawberry Milkshake</name>
+        <price>7.95</price>
+        <description>Strawberry milkashake with cream and chocolate.
+        </description>
+        <calories>900</calories>
+    </food>
+    <food>
+      <number> 3. </number>
+        <name>French Toast</name>
+        <price>4.50</price>
+        <description>Thick slices made from our homemade sourdough bread
+        </description>
+        <calories>600</calories>
+    </food>
+    <food>
+        <number> 4. </number>
+        <name>Homestyle Breakfast</name>
+        <price>6.95</price>
+        <description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns.
+        </description>
+        <calories>950</calories>
+    </food>
+    <food>
+        <number> 5. </number>
+        <name>Print Roasted stone fruit</name>
+        <price>8.95</price>
+        <description>Made with mighty oats and beautifully sweet dates.
+        </description>
+        <calories>900</calories>
+    </food>
+    <food>
+        <number> 6. </number>
+        <name>Toasted Popeye bread</name>
+        <price>10.25</price>
+        <description> It’s super-high in vitamin K, which we need to keep our bones strong and healthy.
+        </description>
+        <calories>450</calories>
+    </food>
+    <food>
+        <number> 7. </number>
+        <name>Print Classic crumpets</name>
+        <price>4.50</price>
+        <description>These require a little patience, but you just cannot beat a homemade crumpet.
+        </description>
+        <calories>600</calories>
+    </food>
+    <food>
+        <number> 8. </number>
+        <name>Gallo pinto</name>
+        <price>5.00</price>
+        <description>Like a veggie kedgeree, this Costa Rican-inspired dish is great for breakfast.
+        </description>
+        <calories>394</calories>
+    </food>
+    <food>
+      <number> 9. </number>
+        <name>Oaty fruity cereal</name>
+        <price>3.15</price>
+        <description>Contains dried fruit,mixed unsalted nuts, mixed seeds, porridge oats, ground cinnamon. Optional serving with milk or natural yoghur.
+        </description>
+        <calories>190</calories>
+    </food>
+    <food>
+        <number> 10. </number>
+        <name>Simple cheese omelette</name>
+        <price>2.75</price>
+        <description>Served with wholemeal bread and a simple tomato salad for a healthy, balanced meal.
+        </description>
+        <calories>241</calories>
+    </food>
+</breakfast_menu>

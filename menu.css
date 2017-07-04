@@ -1,0 +1,49 @@
+breakfast_menu {
+    background-color:#ffffff;
+    width: 100%;
+}
+food{
+  text-align:left;
+	margin:50px;
+	background-color:rgb(227, 118, 160);;
+	color:white;
+	display:block;
+	padding:5px;
+
+}
+
+number{
+  font-size : 24px;
+  padding-left:10px;
+  background-color:lightgray;
+  display: block;
+}
+
+
+name{
+  font-size : 24px;
+  background-color:rgb(227, 118, 160);
+  display:block;
+  padding-left:10px;
+}
+
+price{
+  padding-left:10px;
+  background-color:rgb(227, 118, 160);
+  display:block;
+  font-size : 24px;
+}
+
+description{
+  padding-left:10px;
+  font-size : 24px;
+  background-color:rgb(227, 118, 160);
+  display: block;
+}
+
+calories{
+  font-size : 24px;
+  background-color:rgb(227, 118, 160);
+  display:block;
+  padding-left:10px;
+}

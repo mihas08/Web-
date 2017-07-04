@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="menu.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-offset-4 col-md-4 form-col" id="box">
+                <h2>Restaurant Menu!</h2>
+                <hr>
+                <form class="form-horizontal" action=" " method="" id="">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                <input name="number" id="DeleteNode" placeholder="Index to be deleted" class="form-control" type="number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <button id="delete" onclick="Delete();" type="button" class="btn btn-primary pull-right">Delete&nbsp;<span class="glyphicon glyphicon-remove"></span></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                <input name="edit" id="EditNode" placeholder="Index to be edited" class="form-control" type="number">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <button id="load" onclick="Load();" type="button" class="btn btn-primary pull-right">Load&nbsp;<span class="glyphicon glyphicon-upload"></span></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <fieldset>
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-font"></i></span>
+                                    <input name="number" id="LoadedNumber" placeholder="Number" class="w3-input w3-border w3-light-grey" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input name="name" id="LoadedName" placeholder="Name" class="w3-input w3-border w3-light-grey" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <div class="col-md-12 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-euro"></i></span>
+                                    <input name="price" id="LoadedPrice" placeholder="Price" class="w3-input w3-border w3-light-grey" type="number">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <div class="col-md-12 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-list-alt"></i></span>
+                                    <input name="description" id="LoadedDescription" placeholder="Description" class="w3-input w3-border w3-light-grey" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-font"></i></span>
+                                    <input name="calories" id="LoadedCalories" placeholder="Calories" class="w3-input w3-border w3-light-grey" type="number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <button id="save" type="button" onclick="Save();" class="btn btn-primary pull-right">Save&nbsp;<span class="glyphicon glyphicon-save"></span></button>
+                                <!--
+                                <button id="edit" type="button" onclick="Edit();" class="btn btn-primary pull-right">Edit&nbsp;</button>
+                              -->
+
+
+                                <input type="button" onclick="MaxPrice();" class="btn btn-primary" value="MaxPrice">
+                                <input type="button" onclick="AverCal();" class="btn btn-primary " value="AvgCal">
+                                <input type="button" onclick="Edit();" class="btn btn-primary" value="Edit">
+                                <input type="button" onclick="Clear();" class="btn btn-primary " value="Clear">
+                            </div>
+                        </div>
+            </div>
+            </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
